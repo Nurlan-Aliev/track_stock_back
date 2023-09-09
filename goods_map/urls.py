@@ -3,7 +3,7 @@ from django.urls import path, include
 
 
 urlpatterns = [
-    path('stock/', include('goods_map.stock.urls')),
+    # path('stock/', include('goods_map.stock.urls')),
     # path('count/', include('goods_map.count.urls')),
     path('goods/', include('goods_map.goods.urls')),
     # path('image/', include('goods_map.gallery.urls')),
